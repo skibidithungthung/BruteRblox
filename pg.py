@@ -29,8 +29,8 @@ def main():
     driver.get("https://www.roblox.com/login")
 
     print("YOU CAN PROVIDE USERNAME NOW")
-    # Get the user-specified username
-    username = input("Username: ")
+    bewwf
+    username = input(bewwf)
 
     print("Getting password_list...")
     time.sleep(1)
@@ -40,7 +40,7 @@ def main():
 
     print("Locating username and pass textboxes...")
     # Find the username and password textboxes and login button
-    username_input = driver.find_element(By.NAME, 'username')
+    username_input = driver.find_element(By.NAME, 'bewwf)
     password_input = driver.find_element(By.NAME, 'password')
     login_button = driver.find_element(By.ID, 'login-button')
 
