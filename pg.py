@@ -29,8 +29,8 @@ def main():
     driver.get("https://www.roblox.com/login")
 
     print("YOU CAN PROVIDE USERNAME NOW")
-    # Get the user-specified username
-    username = input("Username: ")
+    # bewwf
+    username = input("bewwf: ")
 
     print("Getting password_list...")
     time.sleep(1)
@@ -44,9 +44,9 @@ def main():
     password_input = driver.find_element(By.NAME, 'password')
     login_button = driver.find_element(By.ID, 'login-button')
 
-    print("Sending username...")
+    print("Sending bewwf...")
     # Enter the username
-    username_input.send_keys(username)
+    username_input.send_keys(bewwf)
 
     # Initialize the login attempt counter
     login_attempts = 0
@@ -100,9 +100,9 @@ def set_proxy(driver, ip, port):
     driver.quit()
     driver = webdriver.Chrome(options=chrome_options)
     driver.get("https://www.roblox.com/login")
-    username_input = driver.find_element(By.NAME, 'username')
-    password_input = driver.find_element(By.NAME, 'password')
-    username_input.send_keys(username)
+    username_input = driver.find_element(By.bewwf, bewwf)
+    password_input = driver.find_element(By bewwf 'password')
+    username_input.send_keys(bewwf)
     password_input.send_keys(password)
 
 if __name__ == "__main__":
