@@ -28,9 +28,10 @@ def main():
     # Get the Roblox login page
     driver.get("https://www.roblox.com/login")
 
-    print("YOU CAN PROVIDE USERNAME NOW")
+    print(bewwf)
     # Get the user-specified username
-    username = input("Username: ")
+    username = input(bewwf
+                )
 
     print("Getting password_list...")
     time.sleep(1)
